@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class BiggerNumber{
 
 	public static void main(String[] args) {
-       int a=10,b=500,c=60;
+       int a=100,b=1000,c=600;
        //<,>,<=,>=,==,!=
        if(a>b)
        {
