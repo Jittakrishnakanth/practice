@@ -1,4 +1,4 @@
-public class Example7 {
+public class Example9 {
     public static void main(String[] args) {
         // Create a StringBuilder object
         StringBuilder stringBuilder = new StringBuilder();
