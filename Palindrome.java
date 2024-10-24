@@ -1,19 +1,13 @@
-class Palindrome {
-  public static void main(String[] args) {
+package practice;
 
-    String str = "Radar", reverseStr = "";
-    
-    int strLength = str.length();
+public class Palindrome {
 
-    for (int i = (strLength - 1); i >=0; --i) {
-      reverseStr = reverseStr + str.charAt(i);
-    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "madam";
+		String reverse = new StringBuilder(str).reverse().toString();
+		System.out.println(str.equals(reverse));
 
-    if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
-      System.out.println(str + " is a Palindrome String.");
-    }
-    else {
-      System.out.println(str + " is not a Palindrome String.");
-    }
-  }
+	}
+
 }
